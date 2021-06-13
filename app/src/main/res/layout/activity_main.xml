@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EEEEEE">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="20dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="안녕하세요, \n홍길동님!"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/main_button"
+            android:background="@drawable/test"/>
+
+        <Button
+            android:id="@+id/button"
+            style="@style/main_button"
+            android:background="@drawable/main_2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/button7"
+            android:src="@drawable/ic_group_main3"
+            style="@style/main_bottom_button"
+            android:paddingTop="50dp"/>
+
+        <ImageButton
+            android:id="@+id/button8"
+            android:src="@drawable/ic_group_main4"
+            style="@style/main_bottom_button"
+            android:paddingBottom="50dp"/>
+    </LinearLayout>
+
+</LinearLayout>
