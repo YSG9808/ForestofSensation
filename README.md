@@ -1,61 +1,30 @@
 # ForestofSensation
+감각의 숲
 
-**[뱃지나 프로젝트에 관한 이미지들이 이 위치에 들어가면 좋습니다]**  
-One Paragraph of project description goes here / 프로젝트의 전반적인 내용에 대한 요약을 여기에 적습니다
-
-## Getting Started / 어떻게 시작하나요?
-
-이 곳에서 설치에 관련된 이야기를 해주시면 좋습니다.
-
-### Prerequisites / 선행 조건
+IOT기반의 감각처리장애 아동을 위한 촉감놀이교구와 연동되는 어플
 
 
+## 개요 
 
-### Installing / 설치
+- 감각처리장애 아동의 치료를 돕기위한 교구로 비싼 촉감놀이 치료를 집에서도 일정부분 채울 수 있도록 한다. 
 
-아래 사항들로 현 프로젝트에 관한 모듈들을 설치할 수 있습니다.
+- 치료기관에서도 집에서의 놀이 기록을 통해 아이의 치료를 더욱 효과적으로 할 수 있도록 한다.  
 
-```
-예시
-```
+- 제품의 압력센서를 통해 어플과 연동하여 아이가 원하는대로 스토리를 진행시켜 아이의 흥미 유발
 
-## Running the tests / 테스트의 실행
+### 구성
 
-어떻게 테스트가 이 시스템에서 돌아가는지에 대한 설명을 합니다
+  게임을 시작하면 팀에서 직접 만든 영상 스토리가 시작된다. 
+  그 중 아이가 진행하고 싶은 동물모형을 직접 만지면 압력센서의 입력값을 받아와서 아이가 선택한 방향대로 스토리가 진행된다. 
 
-### 테스트는 이런 식으로 동작합니다
+  
+### 개선하고 싶은 사항
 
-왜 이렇게 동작하는지, 설명합니다
+ - 커뮤니티를 통한 스토리를 다양하게 하고 아이의 놀이치료기록을 저장하는 기능을 추가하고 싶다.  
 
-```
-예시
-```
 
-### 테스트는 이런 식으로 작성하시면 됩니다
+### 개발환경
 
-```
-예시
-```
-
-## Deployment / 배포
-
-Add additional notes about how to deploy this on a live system / 라이브 시스템을 배포하는 방법
-
-## Built With / 누구랑 만들었나요?
-
-* [이름](링크) - 무엇 무엇을 했어요
-* [Name](Link) - Create README.md
-
-## Contributiong / 기여
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us. / [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) 를 읽고 이에 맞추어 pull request 를 해주세요.
-
-## License / 라이센스
-
-This project is licensed under the MIT License - see the [LICENSE.md](https://gist.github.com/PurpleBooth/LICENSE.md) file for details / 이 프로젝트는 MIT 라이센스로 라이센스가 부여되어 있습니다. 자세한 내용은 LICENSE.md 파일을 참고하세요.
-
-## Acknowledgments / 감사의 말
-
-* Hat tip to anyone whose code was used / 코드를 사용한 모든 사용자들에게 팁
-* Inspiration / 영감
-* etc / 기타
+	    - 아두이노 -> 블루투스, 압력센서
+ 
+	    - 안드로이드 스튜디오(JAVA이용)
